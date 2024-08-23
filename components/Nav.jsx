@@ -1,9 +1,9 @@
-"use client";
+'use client';
 
-import Link from "next/link";
-import Image from "next/image";
-import { useEffect, useState } from "react";
-import { signIn, signOut, useSession, getProviders } from "next-auth/react";
+import Link from 'next/link';
+import Image from 'next/image';
+import { useEffect, useState } from 'react';
+import { signIn, signOut, useSession, getProviders } from 'next-auth/react';
 
 const Nav = () => {
   const { data: session } = useSession();
@@ -28,7 +28,7 @@ const Nav = () => {
           height={30}
           className='object-contain'
         />
-        <p className='logo_text'>Promptopia</p>
+        <p className='logo_text'>PromptHub</p>
       </Link>
 
       {/* Desktop Navigation */}
